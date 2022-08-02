@@ -123,6 +123,13 @@ main {
   background-color: #fafafc;
   border: 1px solid #e6e6f0;
 }
+.wrapper-form #my-form fieldset input:invalid {
+  outline: 1px solid red;
+}
+.wrapper-form #my-form fieldset input:focus {
+  outline: 2px solid black;
+}
+
 .wrapper-form #my-form fieldset label {
   font-size: 1.4rem;
   color: #4e4959;
@@ -224,4 +231,8 @@ main {
   width: 608px;
   border: none;
   border-radius: 20px;
+}
+.wrapper-form footer button:hover {
+  background-color: #e10e39;
+  cursor: pointer;
 }

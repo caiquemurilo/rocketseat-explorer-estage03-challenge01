@@ -24,22 +24,23 @@
               <legend class="legend-info-pessoais">INFORMAÇÕES PESSOAIS</legend>
               <div class="form-info-pessoal-linha1">
                 <div class="campo-form">
-                  <label for="name">Nome</label><input type="text" id="name" />
+                  <label for="name">Nome</label
+                  ><input type="text" id="name" required />
                 </div>
                 <div class="campo-form">
                   <label for="lastName">Sobrenome</label
-                  ><input type="text" id="lastName" />
+                  ><input type="text" id="lastName" required />
                 </div>
               </div>
               <div class="campo-form">
                 <label for="email"
                   >Email <span>(digite um email válido)</span></label
-                ><input type="email" id="email" />
+                ><input type="email" id="email" required />
               </div>
               <div class="campo-form">
                 <label for="password"
                   >Senha<span>(mínimo de 6 caracteres)</span></label
-                ><input type="password" id="password" />
+                ><input type="password" id="password" minlength="6" required />
               </div>
             </fieldset>
             <fieldset>
@@ -47,7 +48,7 @@
               <div class="campo-form">
                 <label for="mentorName"
                   >Nome do seu mentor <span>(só o primeiro nome)</span></label
-                ><input type="text" id="mentorName" />
+                ><input type="text" id="mentorName" required />
               </div>
             </fieldset>
             <fieldset>
@@ -57,16 +58,16 @@
                 <div class="form-horario-linha">
                   <div class="campo-form">
                     <label for="date1">Data <span>(DD/MM/AAAA)</span></label
-                    ><input type="date" id="date1" />
+                    ><input type="date" id="date1" required />
                   </div>
                   <div class="form-horario-campos-horarios">
                     <div class="campo-form">
                       <label for="hour-begin-1">Das</label
-                      ><input type="datetime" id="hour-begin-1" />
+                      ><input type="datetime" id="hour-begin-1" required />
                     </div>
                     <div class="campo-form">
                       <label for="hour-finish-1">Até</label
-                      ><input type="datetime" id="hour-finish-1" />
+                      ><input type="datetime" id="hour-finish-1" required />
                     </div>
                   </div>
                 </div>
