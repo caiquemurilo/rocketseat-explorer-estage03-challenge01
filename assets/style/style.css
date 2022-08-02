@@ -145,7 +145,7 @@ main {
   display: flex;
   flex-direction: column;
 } */
-.wrapper-form #my-form fieldset > div:not(:first-of-type) label {
+.wrapper-form #my-form fieldset:nth-child(1) > div:not(:first-of-type) label {
   margin-block: 16px 8px;
 }
 /* .wrapper-form #my-form fieldset > div:not([class='form-info-pessoal-linha1']) {
@@ -222,4 +222,6 @@ main {
   padding: 15px 40px;
   height: 55.65px;
   width: 608px;
+  border: none;
+  border-radius: 20px;
 }
